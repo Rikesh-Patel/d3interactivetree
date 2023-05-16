@@ -52,8 +52,8 @@ let g = svg.append('g')
             .attr('transform', 'translate(140,50)');
 
     
-    let layout = d3.tree().nodeSize([100, 200]).separation(function(a, b) {
-    return a.parent == b.parent ? 2 : 30;
+    let layout = d3.tree().nodeSize([50, 100]).separation(function(a, b) {
+    return a.parent == b.parent ? 20 : 30;
 }).size([dim.height-50, dim.width-320]);
 
     layout(rootNode);
