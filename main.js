@@ -32,7 +32,7 @@ var updateTextLinks;
 
 let dim = {
     'width': window.screen.width, 
-    'height':window.screen.height * 100   , 
+    'height':window.screen.height * 300   , 
     'margin':500    
 };
 
