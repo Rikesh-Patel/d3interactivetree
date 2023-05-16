@@ -33,7 +33,7 @@ var updateTextLinks;
 let dim = {
     'width': window.screen.width, 
     'height':window.screen.height * 300   , 
-    'margin':500    
+    'margin':50
 };
 
 let svg = d3.select('#chart').append('svg')
@@ -52,7 +52,7 @@ let g = svg.append('g')
             .attr('transform', 'translate(140,50)');
 
     
-    let layout = d3.tree().nodeSize([40, 10]);
+    let layout = d3.tree().nodeSize([10, 10]);
     //.separation(function(a, b) {
     //return a.parent == b.parent ? 40 : 200;
 //});
