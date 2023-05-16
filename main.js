@@ -33,7 +33,7 @@ var updateTextLinks;
 let dim = {
     'width': window.screen.width, 
     'height':window.screen.height * 300   , 
-    'margin':50
+    'margin':500
 };
 
 let svg = d3.select('#chart').append('svg')
