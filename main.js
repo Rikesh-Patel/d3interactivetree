@@ -54,7 +54,7 @@ let g = svg.append('g')
     
     let layout = d3.tree().nodeSize([500, 100]).separation(function(a, b) {
     return a.parent == b.parent ? 20 : 30;
-}).size([dim.height-150, dim.width-1320]);
+});
 
     layout(rootNode);
     console.log(rootNode.links());
