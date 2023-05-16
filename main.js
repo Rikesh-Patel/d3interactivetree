@@ -49,10 +49,10 @@ document.querySelector("#chart").classList.add("center");
 
 
 let g = svg.append('g')
-            .attr('transform', 'translate(140,50)');
+            .attr('transform', 'translate(14000,50)');
 
     
-    let layout = d3.tree().nodeSize([15, 100]);
+    let layout = d3.tree().nodeSize([15, 300]);
     //.separation(function(a, b) {
     //return a.parent == b.parent ? 25 : 20;
 //});
