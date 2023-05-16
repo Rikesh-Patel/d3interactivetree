@@ -52,9 +52,10 @@ let g = svg.append('g')
             .attr('transform', 'translate(140,50)');
 
     
-    let layout = d3.tree().nodeSize([40, 10]).separation(function(a, b) {
-    return a.parent == b.parent ? 40 : 200;
-});
+    let layout = d3.tree().nodeSize([40, 10]);
+    //.separation(function(a, b) {
+    //return a.parent == b.parent ? 40 : 200;
+//});
 
     layout(rootNode);
     console.log(rootNode.links());
