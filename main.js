@@ -32,7 +32,7 @@ var updateTextLinks;
 
 let dim = {
     'width': window.screen.width, 
-    'height':window.screen.height * 20   , 
+    'height':window.screen.height * 100   , 
     'margin':500    
 };
 
@@ -52,7 +52,7 @@ let g = svg.append('g')
             .attr('transform', 'translate(140,50)');
 
     
-    let layout = d3.tree().nodeSize([50, 100]).separation(function(a, b) {
+    let layout = d3.tree().nodeSize([10, 100]).separation(function(a, b) {
     return a.parent == b.parent ? 20 : 30;
 });
 
