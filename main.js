@@ -49,7 +49,7 @@ document.querySelector("#chart").classList.add("center");
 
 
 let g = svg.append('g')
-            .attr('transform', 'translate(40,500)'); //larger first value moves chart left
+            .attr('transform', 'translate(40,8000)'); //larger first value moves chart left
 
     
     let layout = d3.tree().nodeSize([15, 100]);
