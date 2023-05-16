@@ -49,7 +49,7 @@ document.querySelector("#chart").classList.add("center");
 
 
 let g = svg.append('g')
-            .attr('transform', 'translate(-140,50)');
+            .attr('transform', 'translate(140,50)');
 
     
     let layout = d3.tree().nodeSize([15, 100]);
